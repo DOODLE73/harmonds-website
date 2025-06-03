@@ -1,0 +1,9 @@
+
+.navbar-custom .nav-link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #d4edda; /* light green on hover */
+}
