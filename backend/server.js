@@ -12,7 +12,7 @@ const PORT = process.env.PORT ||5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, "../frontend/build")));
+// app.use(express.static(path.join(__dirname, "../frontend/build"))); if some error raised un comment this
 
 // app.get("/*", (req, res) => {
 //   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
@@ -53,9 +53,10 @@ app.post('/api/contact', async (req, res) => {
   }
 });
 
-app.get(/^\/(?!api).*/, (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
-});
+// app.get(/^\/(?!api).*/, (req, res) => {
+//   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
+// });  if some error raised un comment this
+
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
 });
