@@ -12,11 +12,11 @@ const PORT = process.env.PORT ||5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, "../frontend/build")));
+// app.use(express.static(path.join(__dirname, "../frontend/build")));
 
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
-});
+// app.get("/*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
+// });
 
 // ✅ Make sure this route is correct
 app.post('/api/contact', async (req, res) => {
@@ -45,6 +45,12 @@ app.post('/api/contact', async (req, res) => {
     console.error('Email sending failed:', error);
     res.status(500).send('Email failed!');
   }
+});
+
+app.use(express.static(path.join(__dirname, "../frontend/build")));
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
 });
 
 app.listen(PORT, () => {
