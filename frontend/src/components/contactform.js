@@ -8,7 +8,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/contact', form);
+      await axios.post('https://harmonds-api.onrender.com/api/contact', form);
       alert('Message sent!');
     } catch (error) {
       console.error('Sending failed:', error);
