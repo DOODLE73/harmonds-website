@@ -30,10 +30,10 @@ const Banner = () => (
 
   <div class="w-full md:w-1/2  md:text-left mb-8 md:mb-0 text-center">
     <h1 class="text-4xl font-bold text-green-900 leading-snug mb-4 " style={bannerText} >
-      Trusted by growers across the World Wide for delivering high-performance fertilizers that turn every field into a fertile success story.
+      Trusted by growers across the World for delivering high-performance fertilizers that turn every field into a fertile success story.
     </h1>
 
-    <button class="btn btn-md btn-success ms-4 ">Contact Us</button>
+    // <button class="btn btn-md btn-success ms-4 ">Contact Us</button>
     {/* <p class="text-lg text-green-800">
       Let's support those who nurture the soil and feed the world.
     </p> */}
