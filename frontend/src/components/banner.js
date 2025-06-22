@@ -33,7 +33,7 @@ const Banner = () => (
       Trusted by growers across the World for delivering high-performance fertilizers that turn every field into a fertile success story.
     </h1>
 
-    // <button class="btn btn-md btn-success ms-4 ">Contact Us</button>
+   
     {/* <p class="text-lg text-green-800">
       Let's support those who nurture the soil and feed the world.
     </p> */}
