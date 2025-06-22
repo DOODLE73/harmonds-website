@@ -63,6 +63,26 @@ const Product = () => {
           <h5 className="mt-2">Nano Fertilizers</h5>
         </div>
       </div>
+
+               <div className="row justify-content-center">
+        <div className="col-md-6 text-center mb-4">
+          <img
+            src="img/Nano005.jpg"
+            alt="High Yield Zinc"
+            className="product-img"
+          />
+          <h5 className="mt-2">Nano Fertilizers</h5>
+        </div>
+        <div className="col-md-6 text-center mb-4">
+          <img
+            src="img/Nano006.jpg"
+            alt="Zinc + Sulphur"
+            className="product-img"
+          />
+          <h5 className="mt-2">Nano Fertilizers</h5>
+        </div>
+      </div>
+              
     </div>
   );
 };
