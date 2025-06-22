@@ -37,7 +37,7 @@ const Product = () => {
         </div>
         <div className="col-md-6 text-center mb-4">
           <img
-            src="img/Nano1.jpg"
+            src="img/Nano002.jpg"
             alt="Zinc Boost"
             className="product-img"
           />
@@ -48,7 +48,7 @@ const Product = () => {
       <div className="row justify-content-center">
         <div className="col-md-6 text-center mb-4">
           <img
-            src="img/Nano2.jpg"
+            src="img/Nano003.jpg"
             alt="High Yield Zinc"
             className="product-img"
           />
@@ -56,7 +56,7 @@ const Product = () => {
         </div>
         <div className="col-md-6 text-center mb-4">
           <img
-            src="img/Nano3.jpg"
+            src="img/Nano004.jpg"
             alt="Zinc + Sulphur"
             className="product-img"
           />
