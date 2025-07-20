@@ -75,7 +75,7 @@ const Product = () => {
         </div>
         <div className="col-md-6 text-center mb-4">
           <img
-            src="img/Nano006.jpg"
+            src="img/Nano007.jpg"
             alt="Zinc + Sulphur"
             className="product-img"
           />
