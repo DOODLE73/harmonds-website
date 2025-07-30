@@ -89,16 +89,16 @@ const Banner = () => (
       <div className="carousel-inner">
         <div className="carousel-item active">
             
-          <img src="img/banner_1_tall.jpg" className="d-block w-100" alt="NPK 03:50:50" />
+          <img src="img/banner_1_tall1.jpg" className="d-block w-100" alt="NPK 03:50:50" />
         </div>
         <div className="carousel-item">
-          <img src="img/banner_2_tall.jpg" className="d-block w-100" alt="NPK 25:25:25" />
+          <img src="img/banner_2_tall1.jpg" className="d-block w-100" alt="NPK 25:25:25" />
         </div>
         <div className="carousel-item">
-          <img src="img/banner_3_tall.jpg" className="d-block w-100" alt="Calcium Nitrate" />
+          <img src="img/banner_3_tall1.jpg" className="d-block w-100" alt="Calcium Nitrate" />
         </div>
         <div className="carousel-item">
-          <img src="img/banner_4_tall.jpg" className="d-block w-100" alt="Zincated Urea" />
+          <img src="img/banner_4_tall1.jpg" className="d-block w-100" alt="Zincated Urea" />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#harmondsCarousel" data-bs-slide="prev">
