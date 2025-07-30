@@ -92,7 +92,7 @@ const Banner = () => (
           <img src="img/banner_1_tall1.jpg" className="d-block w-100" alt="NPK 03:50:50" />
         </div>
         <div className="carousel-item">
-          <img src="img/banner_2_tall1.jpg" className="d-block w-100" alt="NPK 25:25:25" />
+          <img src="img/banner_2_tall2.jpg" className="d-block w-100" alt="NPK 25:25:25" />
         </div>
         <div className="carousel-item">
           <img src="img/banner_3_tall1.jpg" className="d-block w-100" alt="Calcium Nitrate" />
