@@ -119,10 +119,10 @@ const Banner = () => (
 </div>
 
 
-    //<button class="btn btn-md btn-success ms-4 ">Contact Us</button>
-    {/* <p class="text-lg text-green-800">
+    
+     <p class="text-lg text-green-800">
       Let's support those who nurture the soil and feed the world.
-    </p> */}
+    </p> 
   </div>
 
   {/* <!-- Right Side: Farmer Image --> */}
