@@ -115,56 +115,101 @@ const Banner = () => (
     <h1 class="text-4xl font-bold text-green-900 leading-snug mb-4 " style={bannerText} >
       Trusted by growers across the World Wide for delivering high-performance fertilizers that turn every field into a fertile success story.
     </h1>
-    <p  class="text-4xl font-bold text-green-900 leading-snug mb-4 " >
-      
-🌱 Welcome to Harmonds
-Trusted Fertilizer Solutions Backed by Innovation
+   <div class="container py-5">
 
-Harmonds is a name growers trust. With vast experience in conventional fertilizers and a specialized focus on liquid fertilizer technology, we help farmers achieve healthier crops, faster growth and better yields — season after season.
+  <!-- Welcome Section -->
+  <h4>🌱 Welcome to Harmonds</h4>
+  <p><strong>Trusted Fertilizer Solutions Backed by Innovation</strong></p>
+  <p>Harmonds is a name growers trust. With vast experience in conventional fertilizers and a specialized focus on 
+    <strong>liquid fertilizer technology</strong>, we help farmers achieve healthier crops, faster growth and better yields — season after season.</p>
+  <hr>
 
-💧 Why Liquid Fertilizers?
-Liquid fertilizers offer unmatched benefits over granular or powdered options:
+  <!-- Why Liquid Fertilizers -->
+  <h4>💧 Why Liquid Fertilizers?</h4>
+  <p>Liquid fertilizers offer unmatched benefits over granular or powdered options:</p>
 
-✅ Easy Application
-Applied effortlessly with sprayers for uniform and efficient coverage.
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      ✅ <strong>Easy Application</strong><br>
+      <small>Applied effortlessly with sprayers for uniform and efficient coverage.</small>
+    </li>
+    <li class="mb-3">
+      ⚡ <strong>Fast-Acting Nutrition</strong><br>
+      <small>Nutrients are immediately available for plant uptake, ensuring faster growth and visible results.</small>
+    </li>
+    <li class="mb-3">
+      🌿 <strong>Better Absorption</strong><br>
+      <small>Higher absorption rates mean plants get more of what they need, when they need it.</small>
+    </li>
+    <li class="mb-3">
+      ❄️ <strong>Gentle on Roots</strong><br>
+      <small>Lower salt content reduces the risk of root burn — ideal for sensitive crops.</small>
+    </li>
+    <li class="mb-3">
+      🧪 <strong>Consistent Formulation</strong><br>
+      <small>Every drop contains the same precise blend of nutrients, unlike variable-content granules.</small>
+    </li>
+    <li class="mb-3">
+      🚛 <strong>Lower Freight Costs</strong><br>
+      <small>More efficient to ship and store, helping you save on logistics.</small>
+    </li>
+  </ul>
 
-⚡ Fast-Acting Nutrition
-Nutrients are immediately available for plant uptake, ensuring faster growth and visible results.
+  <!-- Built for Modern Farming -->
+  <h4>🚜 Built for Modern Farming</h4>
+  <p>At Harmonds, we’re committed to delivering smarter, more efficient fertilizer solutions tailored for the evolving needs of today’s agriculture.</p>
+  <p><a href="#" class="text-decoration-underline">[Case Study : Comparison of Liquid NPK with Granular NPK]</a></p>
 
-🌿 Better Absorption
-Higher absorption rates mean plants get more of what they need, when they need it.
+  <!-- Table -->
+  <div class="table-responsive mb-4">
+    <table class="table table-bordered text-center align-middle">
+      <thead class="table-light">
+        <tr>
+          <th colspan="5">NPK Required for One Acre</th>
+        </tr>
+        <tr>
+          <th>Type</th>
+          <th>Cost of Material</th>
+          <th>Freight</th>
+          <th>Price</th>
+          <th>Cost per Acre Application</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>NPK Granules</strong></td>
+          <td>$375 per tonne</td>
+          <td>$2000 USD for 20 MT shipment</td>
+          <td>$100 per tonne</td>
+          <td>$47.5 (100 Kg/acre)</td>
+        </tr>
+        <tr>
+          <td><strong>NPK Liquid</strong></td>
+          <td>$20 per litre</td>
+          <td>$2000 for 16 MT shipment (80 drums of 200L)</td>
+          <td>$0.125 per litre</td>
+          <td>$10.0625 (500 ml/acre)</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-❄️ Gentle on Roots
-Lower salt content reduces the risk of root burn — ideal for sensitive crops.
+  <!-- Conclusion -->
+  <p class="text-muted"><em>Note:</em> The above assumptions are based on current market trends.</p>
+  <p class="text-primary fw-bold">
+    Thus liquid fertilizer (NPK) landed price is approximately one fourth of the price of granular fertilizer (NPK) for one acre of application.
+  </p>
+  <hr>
 
-🔁 Consistent Formulation
-Every drop contains the same precise blend of nutrients, unlike variable-content granules.
+  <!-- Contact Section -->
+  <h5>📞 Need Expert Advice?</h5>
+  <p>Our agronomy specialists are here to help.<br>
+    Contact Us → <a href="mailto:info@harmonds.com">info@harmonds.com</a>
+  </p>
 
-🚚 Lower Freight Costs
-More efficient to ship and store, helping you save on logistics.
+</div>
 
-🚜 Built for Modern Farming
-At Harmonds, we’re committed to delivering smarter, more efficient fertilizer solutions tailored for the evolving needs of today’s agriculture.
 
-[Case Study : Comparison of Liquid NPK with Granular NPK]
-NPK Required for One acre
- 	 	 	 	 
- 	Cost of Material per tonne ( USD)	Freight (USD)2000 USD for 20 MT shipment	Price per tonne	Cost per Acre Application @ 100 Kg per acre
- 	 	 	 	 
-NPK Granules	375	100	475	47.5
- 	 	 	 	 
- 	Cost of Material per litre ( USD)	Freight per litre. Assuming freight 2000 USD for 16 MT shipment (80 drums of 200 litres)	Price per Litre	Cost per Acre Application 500 ml per acre
-NPK Liquid	20	0.125	20.125	10.0625
- 	 	 	 	 
- 	 	 	 	 
-Note: The above assumptions are based on current market trends.
-
-Thus liquid fertilizer (NPK) landed price is approximately one fourth of the price of granular fertilizer (NPK) for one acre of application.
-
-📞 Need Expert Advice?
-Our agronomy specialists are here to help.
-Contact Us →info@harmonds.com
-    </p>
     //<button class="btn btn-md btn-success ms-4 ">Contact Us</button>
     {/* <p class="text-lg text-green-800">
       Let's support those who nurture the soil and feed the world.
