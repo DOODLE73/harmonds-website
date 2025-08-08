@@ -181,7 +181,7 @@ const Banner = () => (
 
       {/* Table */}
       <div className="table-responsive mb-4">
-        <table className="table table-bordered text-center align-middle">
+        <table class="table table-bordered text-center align-middle">
           <thead className="table-light">
             <tr>
               <th colSpan="5">NPK Required for One Acre</th>
