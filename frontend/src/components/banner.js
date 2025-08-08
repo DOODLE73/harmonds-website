@@ -70,6 +70,85 @@ const bannerText = {
   wordSpacing:'5px'
 }
 
+.banner-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  font-family: 'Poetsen One', sans-serif;
+}
+
+.subheading {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.custom-list li {
+  margin-bottom: 16px;
+}
+
+.custom-list span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.case-link {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin: 30px 0;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+}
+
+.note {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.highlight {
+  color: #2c7be5;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+
 // const fertilizerImage = {
 //   width:'100%',
 //   paddingLeft:'22px',
@@ -120,9 +199,7 @@ const Banner = () => (
 
 
     
-     <p class="text-lg text-green-800">
-      Let's support those who nurture the soil and feed the world.
-    </p> 
+     
   </div>
 
   {/* <!-- Right Side: Farmer Image --> */}
@@ -130,59 +207,53 @@ const Banner = () => (
     <img src="img/" alt="Farmer" class="w-full max-w-sm rounded-xl shadow-md " style={fertilizerImage} />
   </div> */}
 
-  </div>
+<div className="banner-container">
 
-    <div className="container py-5">
-
-      {/* Welcome Section */}
-      <h4>🌱 Welcome to Harmonds</h4>
-      <p><strong>Trusted Fertilizer Solutions Backed by Innovation</strong></p>
+      <h4 className="section-heading">🌱 Welcome to Harmonds</h4>
+      <p className="subheading"><strong>Trusted Fertilizer Solutions Backed by Innovation</strong></p>
       <p>
         Harmonds is a name growers trust. With vast experience in conventional fertilizers and a specialized focus on
         <strong> liquid fertilizer technology</strong>, we help farmers achieve healthier crops, faster growth and better yields — season after season.
       </p>
       <hr />
 
-      {/* Why Liquid Fertilizers */}
-      <h4>💧 Why Liquid Fertilizers?</h4>
+      <h4 className="section-heading">💧 Why Liquid Fertilizers?</h4>
       <p>Liquid fertilizers offer unmatched benefits over granular or powdered options:</p>
 
-      <ul className="list-unstyled">
-        <li className="mb-3">
+      <ul className="custom-list">
+        <li>
           ✅ <strong>Easy Application</strong><br />
-          <small>Applied effortlessly with sprayers for uniform and efficient coverage.</small>
+          <span>Applied effortlessly with sprayers for uniform and efficient coverage.</span>
         </li>
-        <li className="mb-3">
+        <li>
           ⚡ <strong>Fast-Acting Nutrition</strong><br />
-          <small>Nutrients are immediately available for plant uptake, ensuring faster growth and visible results.</small>
+          <span>Nutrients are immediately available for plant uptake, ensuring faster growth and visible results.</span>
         </li>
-        <li className="mb-3">
+        <li>
           🌿 <strong>Better Absorption</strong><br />
-          <small>Higher absorption rates mean plants get more of what they need, when they need it.</small>
+          <span>Higher absorption rates mean plants get more of what they need, when they need it.</span>
         </li>
-        <li className="mb-3">
+        <li>
           ❄️ <strong>Gentle on Roots</strong><br />
-          <small>Lower salt content reduces the risk of root burn — ideal for sensitive crops.</small>
+          <span>Lower salt content reduces the risk of root burn — ideal for sensitive crops.</span>
         </li>
-        <li className="mb-3">
+        <li>
           🧪 <strong>Consistent Formulation</strong><br />
-          <small>Every drop contains the same precise blend of nutrients, unlike variable-content granules.</small>
+          <span>Every drop contains the same precise blend of nutrients, unlike variable-content granules.</span>
         </li>
-        <li className="mb-3">
+        <li>
           🚛 <strong>Lower Freight Costs</strong><br />
-          <small>More efficient to ship and store, helping you save on logistics.</small>
+          <span>More efficient to ship and store, helping you save on logistics.</span>
         </li>
       </ul>
 
-      {/* Built for Modern Farming */}
-      <h4>🚜 Built for Modern Farming</h4>
+      <h4 className="section-heading">🚜 Built for Modern Farming</h4>
       <p>At Harmonds, we’re committed to delivering smarter, more efficient fertilizer solutions tailored for the evolving needs of today’s agriculture.</p>
-      <p><a href="#" className="text-decoration-underline">[Case Study : Comparison of Liquid NPK with Granular NPK]</a></p>
+      <p><a href="#" className="case-link">[Case Study : Comparison of Liquid NPK with Granular NPK]</a></p>
 
-      {/* Table */}
-      <div className="table-responsive mb-4">
-        <table class="table table-bordered text-center align-middle">
-          <thead className="table-light">
+      <div className="table-wrapper">
+        <table className="custom-table">
+          <thead>
             <tr>
               <th colSpan="5">NPK Required for One Acre</th>
             </tr>
@@ -213,20 +284,19 @@ const Banner = () => (
         </table>
       </div>
 
-      {/* Conclusion */}
-      <p className="text-muted"><em>Note:</em> The above assumptions are based on current market trends.</p>
-      <p className="text-primary fw-bold">
+      <p className="note"><em>Note:</em> The above assumptions are based on current market trends.</p>
+      <p className="highlight">
         Thus liquid fertilizer (NPK) landed price is approximately one fourth of the price of granular fertilizer (NPK) for one acre of application.
       </p>
       <hr />
 
-      {/* Contact Section */}
-      <h5>📞 Need Expert Advice?</h5>
-      <p>Our agronomy specialists are here to help.<br />
+      <h5 className="section-heading">📞 Need Expert Advice?</h5>
+      <p>
+        Our agronomy specialists are here to help.<br />
         Contact Us → <a href="mailto:info@harmonds.com">info@harmonds.com</a>
       </p>
     </div>
-</section>
+ </section>
 
 
   
